@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Roboto:wght@100;300;400;700;900&display=swap');
+* {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.perdeu {
+    padding: 20px;
+    text-align: center;
+    font-size: 80px;
+    display: none;
+    color: #01633d;
+}
+
+.contador {  
+    color: #01633d;
+    position: absolute;
+    top: 110px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.btn {
+    padding-top: 30px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+button {
+    background-color: #6e182c;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    border-style: none;
+    width: 400px;
+    height: 70px;
+}
+
+
+
+

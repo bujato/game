@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco-do-jogo {
+    border-bottom: solid 70px green;
+    width: 100%;
+    height: 663px;
+    margin: 0 auto;
+    position: relative;
+    top: 100%;
+    overflow: hidden;
+    background: linear-gradient(#87ceeb, #e6f6ff);
+}
+
+.cano {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    /* left: 100px; */
+    right: 100%;
+    animation: cano-andando 1.5s infinite linear;
+}
+
+.clouds {
+    position: absolute;
+    width: 550px;
+    animation: nuvens 10s infinite linear;
+}
+
+.mario {
+    width: 140px;
+    position: absolute;
+    bottom: 0;
+}
+
+.pulo {
+    animation: mario-desviando 500ms ease-out;
+}
+
+@keyframes cano-andando {
+    from {
+        right: -80px;
+    }
+    
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes mario-desviando {
+
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes nuvens {
+    from {
+        right: 0;
+    }
+    to {
+        right: 100%;
+    }
+}
+
